@@ -1,0 +1,27 @@
+# Ignora archivos y directorios específicos
+
+# Directorios
+logs/
+_pycache_/
+__pycache__/
+venv/
+env/
+dist/
+build/
+.idea/
+.vscode/
+
+# Archivos
+*.log
+*.db
+*.sqlite3
+*.pid
+*.lock
+*.cfg
+*.env
+.DS_Store
+Thumbs.db
+
+# Archivos de Python
+*.pyc
+*.pyo
